@@ -15,12 +15,12 @@ def pregunta_01():
     """
     Complete el código presentado a continuación.
     """
-
+    
     # Cargue el dataset digits
     digits = datasets.load_digits()
 
     # Imprima los nombres de la variable target del dataset
-    print(digits.target)
+    print(digits.target_names)
 
     # Imprima las dimensinoes de matriz de datos
     print(digits.data.shape)
